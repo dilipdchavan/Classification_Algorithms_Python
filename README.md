@@ -58,7 +58,7 @@ The dataset contains salaries. The following is a description of our dataset:
 lr =  LogisticRegression()
 lr.fit(x_train, y_train)
 
-# make class predictions for the testing set
+make class predictions for the testing set
 y_pred=lr.predict(x_test)
 
 Confusion Matrix:
